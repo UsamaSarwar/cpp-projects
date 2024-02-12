@@ -1,0 +1,15 @@
+﻿Build started 04-Aug-17 10:52:05 AM.
+     1>Project "C:\Users\Usama Sarwar\Documents\Visual Studio 2013\Projects\Calculator 2 number cin\Calculator 2 number cin\Calculator 2 number cin.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "Calculator 2number cin .cpp"
+         Calculator 2number cin .cpp
+     1>c:\users\usama sarwar\documents\visual studio 2013\projects\calculator 2 number cin\calculator 2 number cin\calculator 2number cin .cpp(15): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\usama sarwar\documents\visual studio 2013\projects\calculator 2 number cin\calculator 2 number cin\calculator 2number cin .cpp(16): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\usama sarwar\documents\visual studio 2013\projects\calculator 2 number cin\calculator 2 number cin\calculator 2number cin .cpp(17): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\usama sarwar\documents\visual studio 2013\projects\calculator 2 number cin\calculator 2 number cin\calculator 2number cin .cpp(19): error C2296: '%' : illegal, left operand has type 'float'
+     1>c:\users\usama sarwar\documents\visual studio 2013\projects\calculator 2 number cin\calculator 2 number cin\calculator 2number cin .cpp(19): error C2297: '%' : illegal, right operand has type 'float'
+     1>Done Building Project "C:\Users\Usama Sarwar\Documents\Visual Studio 2013\Projects\Calculator 2 number cin\Calculator 2 number cin\Calculator 2 number cin.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.43

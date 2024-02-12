@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Enter 3 digit Number", "Enter 3 digit Number\Enter 3 digit Number.vcxproj", "{2205655A-CAB3-4E87-BA67-58B2FF44A536}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2205655A-CAB3-4E87-BA67-58B2FF44A536}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2205655A-CAB3-4E87-BA67-58B2FF44A536}.Debug|Win32.Build.0 = Debug|Win32
+		{2205655A-CAB3-4E87-BA67-58B2FF44A536}.Release|Win32.ActiveCfg = Release|Win32
+		{2205655A-CAB3-4E87-BA67-58B2FF44A536}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

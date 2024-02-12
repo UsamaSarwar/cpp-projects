@@ -1,0 +1,11 @@
+﻿Build started 24-Aug-17 12:02:52 PM.
+     1>Project "C:\Users\Usama Sarwar\Documents\Visual Studio 2013\Projects\Function\Function\Function.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\usama sarwar\documents\visual studio 2013\projects\function\function\source.cpp(22): error C2660: 'function' : function does not take 2 arguments
+     1>Done Building Project "C:\Users\Usama Sarwar\Documents\Visual Studio 2013\Projects\Function\Function\Function.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.81

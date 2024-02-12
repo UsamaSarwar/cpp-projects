@@ -1,0 +1,20 @@
+﻿Build started 30-Aug-17 12:26:07 PM.
+     1>Project "C:\Users\Usama Sarwar\Documents\Visual Studio 2013\Projects\Function Overloading\Function Overloading\Function Overloading.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\usama sarwar\documents\visual studio 2013\projects\function overloading\function overloading\source.cpp(24): error C2668: 'input::in' : ambiguous call to overloaded function
+                 c:\users\usama sarwar\documents\visual studio 2013\projects\function overloading\function overloading\source.cpp(14): could be 'void input::in(int)'
+                 c:\users\usama sarwar\documents\visual studio 2013\projects\function overloading\function overloading\source.cpp(10): or       'void input::in(float)'
+                 c:\users\usama sarwar\documents\visual studio 2013\projects\function overloading\function overloading\source.cpp(6): or       'void input::in(char)'
+                 while trying to match the argument list '(double)'
+     1>c:\users\usama sarwar\documents\visual studio 2013\projects\function overloading\function overloading\source.cpp(25): error C2668: 'input::in' : ambiguous call to overloaded function
+                 c:\users\usama sarwar\documents\visual studio 2013\projects\function overloading\function overloading\source.cpp(14): could be 'void input::in(int)'
+                 c:\users\usama sarwar\documents\visual studio 2013\projects\function overloading\function overloading\source.cpp(10): or       'void input::in(float)'
+                 c:\users\usama sarwar\documents\visual studio 2013\projects\function overloading\function overloading\source.cpp(6): or       'void input::in(char)'
+                 while trying to match the argument list '(double)'
+     1>Done Building Project "C:\Users\Usama Sarwar\Documents\Visual Studio 2013\Projects\Function Overloading\Function Overloading\Function Overloading.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.64

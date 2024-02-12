@@ -1,0 +1,119 @@
+// Question 1
+
+#include <iostream>
+#include <conio.h>
+using namespace std;
+int main ()
+{
+	int arr[2][2];
+	int arr1[2][2];
+	int tt[2][2];
+	cout<<"Enter the Elements of first matrix: \n";
+	for (int i=0;i<2;i++)
+	{
+		for (int j=0;j<2;j++)
+		cin>>arr[i][j];
+	}
+	cout<<"Enter the Elements of Second Matrix: \n";
+	for (int i=0;i<2;i++)
+	{
+		for (int j=0;j<2;j++)
+		cin>>arr1[i][j];
+	}
+	
+	
+	for (int i=0;i<2;i++)
+	{
+		for (int j=0;j<2;j++)
+		tt[i][j]=arr[i][j]*arr1[i][j];
+	}
+	cout<<"Resultant: ";
+	for (int i=0;i<2;i++)
+	{
+		for (int j=0;j<2;j++)
+		cout<<tt[i][j]<<" ";
+	}
+	
+	getch();
+}
+
+
+QUESTION 2
+
+#include <iostream>
+#include <conio.h>
+using namespace std;
+struct Per
+{
+	double mad; 		// Marks Admission Test
+	double mm;			// Marks Matric
+	double mi; 			// Marks Inter
+};
+double cal(double a, double b, double c)
+{
+	Per m;
+	cout<<"Enter Percentages!\n";
+	cout<<"Admission Test: ";	cin>>m.mad;
+	cout<<"Matric: ";			cin>>m.mm;
+	cout<<"Inter: ";			cin>>m.mi;
+	int agg;		// Aggregate
+	agg=(((m.mad)*0.20)+((m.mm)*0.30)+((m.mi)*0.50));
+	cout<<"\nYour Aggregate is: "<<agg;
+	return agg;
+}
+int main ()
+{
+	start:
+	int agg;
+	cout<<"\nMake a Choice!\n";
+	cout<<"c= Computer Science\ns= Software Engineering\nt= Telecom Engineering\n";
+	char ch;		// Choice
+	cout<<"Choice: ";	cin>>ch;
+	if (ch=='c')
+	{
+		cal (0,0,0);
+		if (agg>=70)
+		{
+			cout<<"\nCongratulations! \nYou are eligible for the selected program";
+		}
+		else
+		{
+			cout<<"\nSorry! \nYou could not qualify for the selected program";
+		}
+	}
+		else if (ch=='s')
+	{
+		cal (0,0,0);
+		if (agg>=85)
+		{
+			cout<<"\nCongratulations! \nYou are eligible for the selected program";
+		}
+		else
+		{
+			cout<<"\nSorry! \nYou could not qualify for the selected program";
+		}
+	}
+		else if (ch=='t')
+	{
+		cal (0,0,0);
+		if (agg>=80)
+		{
+			cout<<"\nCongratulations! \nYou are eligible for the selected program";
+		}
+		else
+		{
+			cout<<"\nSorry! \nYou could not qualify for the selected program";
+		}
+	}
+	else 
+	{
+		cout<<"\nInvalid input! \nEnter the correct input option again!";
+	}
+
+	getch ();
+	goto start;
+	getch ();
+}
+
+
+

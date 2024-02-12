@@ -1,0 +1,12 @@
+﻿Build started 16-Aug-17 11:57:44 AM.
+     1>Project "c:\Users\usama sarwar\documents\visual studio 2013\Projects\Array\Array\Array.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\usama sarwar\documents\visual studio 2013\projects\array\array\source.cpp(15): error C2086: 'int sum' : redefinition
+                 c:\users\usama sarwar\documents\visual studio 2013\projects\array\array\source.cpp(6) : see declaration of 'sum'
+     1>Done Building Project "c:\Users\usama sarwar\documents\visual studio 2013\Projects\Array\Array\Array.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.48

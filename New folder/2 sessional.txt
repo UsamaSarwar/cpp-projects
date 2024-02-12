@@ -1,0 +1,60 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{
+	char p;
+	char c, s, t;
+	float e;  
+	cin >> p;
+	c = 'c';
+	s = 's';
+	t = 't';
+	if (p == 'c')
+	{
+		cout << "program is computer science"<<endl;
+		cin >> e;
+		if (e >= 75 && e<=100)
+		{
+			cout << "congratulation you are selected for program";
+		}
+		else
+		{
+			cout << "sorry!you are not elegible to qualify";
+		}
+    }
+
+	else if (p == 's')
+	{
+		cout << "program is software engineering" << endl;
+		cin >> e;
+		if (e >= 80)
+		{
+			cout << "congratulation you are selected for program";
+		}
+		else
+		{
+			cout << "sorry!you are not elegible to qualify";
+		}
+
+	}
+	else if (p == 't')
+	{
+		cout << "program is telecomunication";
+		cin >> e;
+		if (e >= 85)
+		{
+			cout << "congratulation you are selected for program";
+		}
+		else
+		{
+			cout << "sorry!you are not elegible to qualify";
+		}
+
+	}
+	else
+	{
+		cout << "invalid! enter the correct input";
+	}
+
+	_getch();
